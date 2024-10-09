@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="/formulario-js/style.css">
+
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario</title>
+  </head>
+  <body class="pagina">
+    <form id="countryForm" >
+      <h2>
+        <label for="nombre">Nombre Completo: </label>
+        <input type="nombre" name="nombre" id="nombre">
+      </h2>
+      
+      
+      <br>
+
+      <h2>
+        <label for="pais" >Paises:</label>
+        <select style="animation: reverse;" name="pais" id="pais">
+          <option id="paisesSelec" value="">Selecciona un país</option>
+        </select>
+      </h2>
+
+      
+      <br>
+
+      <h2>
+        <button id="boton" type="submit">Enviar:</button>
+      </h2>
+      
+    </form>
+    <div id="app"></div>
+    <script src="./formulario.js"></script>
+  </body>
+</html>

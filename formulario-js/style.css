@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif; /* Fuente del texto */
+  background-color: #0065ea; /* Color de fondo */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Altura completa de la pantalla */
+  margin: 0;
+}
+
+/* Estilo del contenedor del formulario */
+#countryForm{
+  background-color: rgb(38, 203, 215);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgb(255, 50, 4);
+}
+
+/* Ajustes a los inputs y select */
+input[type="text"],
+select {
+  width: 100%; /* Ocupa todo el ancho disponible */
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+ /* Estilo para las etiquetas */
+label {
+  font-weight: bold;
+  color: #161a8d;
+}
+
+/* Estilo del botón */
+button {
+  background-color: #00889d; /* Color de fondo del botón */
+  color: white; /* Color del texto */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  cursor: pointer;
+}
+
+/* Cambiar el color del botón al pasar el mouse */
+button:hover {
+  background-color:rgb(0, 8, 249);
+}
+
+/* Centrar el contenido dentro del formulario */
+.form-group {
+  text-align: left;
+}
+
