@@ -1,5 +1,5 @@
 specVersion: "v1beta"
-serviceId: "Proyecto 1"
+serviceId: "proyecto-1"
 location: "us-central1"
 schema:
   source: "./schema"
@@ -7,6 +7,6 @@ schema:
     postgresql:
       database: "fdcdb"
       cloudSql:
-        instanceId: "Proyecto 1-fdc"
+        instanceId: "proyecto-1-fdc"
       # schemaValidation: "COMPATIBLE"
 connectorDirs: ["./connector"]
